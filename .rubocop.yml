@@ -1,5 +1,11 @@
 inherit_from: .rubocop_todo.yml
 
+AllCops:
+  NewCops: disable
+
+Metrics/ParameterLists:
+  Enabled: false
+
 Naming/AccessorMethodName:
   Enabled: false
 
@@ -10,6 +16,9 @@ Style/HashSyntax:
   Enabled: false
 
 Style/ModuleFunction:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
   Enabled: false
 
 Style/StringLiterals:
